@@ -29,10 +29,16 @@
 .cols-2 {
     display: flex;
     align-items: flex-start;
+    flex-flow: column;
+    @include bp(m){
+        flex-flow: row;
+    }
 }
 
 .social-links {
+    margin-top: 1rem;
     @include bp(m){
+        margin-top: 0;
         margin-left: 4rem;
     }
 }
