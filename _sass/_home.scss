@@ -1,0 +1,45 @@
+.home {
+    padding: 5%;
+    font-size: 5vw;
+    @include bp(l){
+        font-size: 3vw;
+        max-width: 60rem;
+    }
+    span {
+        display: block;
+    }
+    h1 {
+        font-family: $cooper;
+        font-style: italic;
+        font-size: 105%;
+    }
+
+    a {
+        color: white;
+        display: block;
+    }
+    h2 {
+        line-height: 1.4;
+        font-family: $sans;
+    }
+}
+.tagline {
+    margin-bottom: 1rem;
+}
+.cols-2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.social-links {
+    @include bp(m){
+        margin-left: 4rem;
+    }
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
