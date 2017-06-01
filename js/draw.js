@@ -9,7 +9,7 @@ var getRandomInt = function (min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 var shufflePen = function () {
-    c.strokeStyle = randomColor();
+    c.strokeStyle = randomColor({luminosity: 'light'});;
     width = getRandomInt(config.width[0], config.width[1]);
 }
 var getRelativeX = function (x) {

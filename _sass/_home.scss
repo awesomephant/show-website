@@ -9,15 +9,12 @@
         display: block;
     }
     h1 {
-        font-family: $cooper;
-        font-size: 30vw;
-        text-align: center;
-        letter-spacing: .06em;
     }
 
     a {
-        color: white;
         display: block;
+        color: lighten(blue, 12);
+        text-decoration: none;
     }
     h2 {
         line-height: 1.4;
