@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: What the FdA
+title: A Nice Pair
 email: awesomephant@gmail.com
 description: Camberwell College of Arts FdA Graphic Design & Illustration Degree Show 2017
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wtfda.co.uk" # the base hostname & protocol for your site
-twitter_username: wtfda_show
-instagram_username:  wtfda_show
+url: "http://anicepair.co.uk" # the base hostname & protocol for your site
+twitter_username: anicepair_show
+instagram_username:  anicepair
 
 # Build settings
 markdown: kramdown
